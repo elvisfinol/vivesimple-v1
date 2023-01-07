@@ -1,0 +1,99 @@
+baseURL = "https://vivesimple.me"
+disqusShortname = "vivesimple-me"
+languageCode = "en-us"
+paginate = 6
+summaryLength = "10"
+theme = "liva-hugo-master"
+title = "Vive Simple 🌎"
+
+[[menu.main]]
+URL = "about"
+name = "Sobre Nosotros"
+weight = 1
+
+[[menu.main]]
+URL = "blog"
+name = "Posts"
+weight = 2
+
+[[menu.main]]
+URL = "contact"
+name = "Contacto"
+weight = 3
+
+[[menu.main]]
+URL = "contact"
+name = "Contacto"
+weight = 4
+
+[[menu.footer]]
+URL = "contact"
+name = "Contacto"
+weight = 3
+
+[[menu.footer]]
+URL = "blog"
+name = "Posts"
+weight = 2
+
+[outputs]
+home = ["HTML", "RSS", "JSON"]
+
+[params]
+author = "Mica"
+copyright = "| copyright &copy; 2021 [Elvis Finol](https://elvisfinol.com) All Rights Reserved |"
+description = "This is meta description"
+email = "info.vivesimple@gmail.com"
+googleAnalitycsID = "ca-pub-3868248257033526"
+home = "Home"
+location = "Madrid, España"
+logo = "images/logo.png"
+
+[params.cookies]
+enable = true
+expire_days = 3
+
+[params.newsletter]
+content = "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero"
+enable = false
+title = "Join Our Newsletter"
+
+[[params.plugins.css]]
+URL = "plugins/bootstrap/bootstrap.min.css"
+[[params.plugins.css]]
+URL = "plugins/slick/slick.css"
+[[params.plugins.css]]
+URL = "plugins/themify-icons/themify-icons.css"
+[[params.plugins.css]]
+URL = "plugins/venobox/venobox.css"
+[[params.plugins.js]]
+URL = "plugins/jQuery/jquery.min.js"
+[[params.plugins.js]]
+URL = "plugins/bootstrap/bootstrap.min.js"
+[[params.plugins.js]]
+URL = "plugins/slick/slick.min.js"
+[[params.plugins.js]]
+URL = "plugins/venobox/venobox.min.js"
+[[params.plugins.js]]
+URL = "plugins/search/fuse.min.js"
+[[params.plugins.js]]
+URL = "plugins/search/mark.js"
+[[params.plugins.js]]
+URL = "plugins/search/search.js"
+
+[params.preloader]
+enable = false
+preloader = "https://premiotravels.com/wp-content/uploads/2017/05/preloader.gif"
+
+[params.search]
+enable = false
+
+[[params.social]]
+icon = "ti-youtube"
+link = "https://www.youtube.com/c/ViveSimple/featured"
+title = "youtube"
+
+[[params.social]]
+icon = "ti-instagram"
+link = "https://www.instagram.com/vivesimple.me/"
+title = "instagram"

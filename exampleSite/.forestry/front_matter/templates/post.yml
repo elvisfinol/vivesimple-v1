@@ -1,0 +1,32 @@
+---
+label: post
+hide_body: false
+fields:
+- type: text
+  name: title
+  label: title
+- type: text
+  name: description
+  label: description
+- type: text
+  name: type
+  label: type
+- type: datetime
+  name: date
+  label: date
+- type: text
+  name: image
+  label: image
+- type: list
+  name: categories
+  label: categories
+- type: list
+  name: tags
+  label: tags
+pages:
+- exampleSite/content/blog/como-elegir-el-lugar-donde-migrar-aspectos-a-considerar.md
+- exampleSite/content/blog/empadronamiento-que-es-como-se-tramita-en-madrid.md
+- exampleSite/content/blog/que-es-el-cue-requisitos-y-guia-para-tramitarlo.md
+- exampleSite/content/blog/residencia-familiar-comunitario-quien-puede-realizarla-y-como-se-tramita.md
+- exampleSite/content/blog/turismo-castilla-la-mancha-toledo.md
+- exampleSite/content/blog/valijas-equipaje-que-llevar-que-dejar.md
