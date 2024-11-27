@@ -1,3 +1,1 @@
-## VIVE SIMPLE
-
-Check website 👉 https://vivesimple.me
+Built with Hugo
